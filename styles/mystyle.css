@@ -4,3 +4,9 @@ h1 {
     font-weight: 800;
     color: #0C0032; 
 }
+
+p {
+    font-size: 0.667em;
+    font-family: 'Open Sans', sans-serif;
+    color: #0C0032; 
+}
