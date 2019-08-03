@@ -19,15 +19,15 @@ body {
 
 }
 
-.navbar {
+nav {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #fff111;
     position: fixed; 
     top: 0; 
     width: 100%; 
 }
 
-.navbar a {
+nav a {
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
