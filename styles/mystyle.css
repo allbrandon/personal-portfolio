@@ -10,3 +10,11 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: #0C0032; 
 }
+
+body {
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
+
+}
