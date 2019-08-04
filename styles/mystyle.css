@@ -77,19 +77,19 @@ nav li {
     width: 100vw; 
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.7fr 0.7fr 0.7fr 0.7fr 0.5fr;
-    grid-gap: 6% 6%;
-    grid-template-areas:
-    "header"
-    "item1"
-    "item2"
-    "item3"
-    "item4"
-    "footer"
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-gap: 6% 6%;
+        grid-template-areas:
+        "header"
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "footer"
 }
-@media (min-width: 400px) {
+@media screen and (min-width: 700px) {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
