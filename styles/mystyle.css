@@ -104,14 +104,17 @@ nav li {
     height: 30%;
     clip-path: circle(9rem at center);
 }
+#picture-container {
+    position: relative;
+}
 .item1 {
     grid-area: "item1";
-    border: 4px dotted turquoise;
+    background-color: #1A0061;
     border-radius: 12px;
 }
 .item2 {
     grid-area: "item2";
-    border: 4px dotted turquoise;
+    background-color: #1A0061;
     border-radius: 12px;
 }
 
