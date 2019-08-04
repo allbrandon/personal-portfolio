@@ -46,3 +46,7 @@ nav a {
     color: #0C0032;
     justify-content: flex-start;
 }
+
+li {
+    list-style-type: none;
+}
