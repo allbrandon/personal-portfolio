@@ -36,14 +36,14 @@ nav {
     top: 0; 
     z-index: 1;
     width: 100vw; 
-    height: 22vh;
+    height: 19vh;
 }
 
 nav li {
     font-size: 1.9rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    color: #27c4cf;
+    color: #3500D4;
     text-decoration: none;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -53,7 +53,7 @@ nav li {
 .nav-line {
     width: 65%;
     height: 1.8em;
-    background-color: #27c4cf;
+    background-color: #3500D4;
     border-radius: 12px;
     margin-left: auto;
 }
@@ -92,17 +92,11 @@ nav li {
     padding-top: 3rem;
     display: flex;  
 }
-#blue-circle {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: #27c4cf;
-    margin-top: 50px;
-}
+
 #my-picture {
-    width: 30%;
-    height: 30%;
-    clip-path: circle(9rem at center);
+    width: 25%;
+    height: 25%;
+    margin-right: 5rem;
 }
 #picture-container {
     position: relative;
@@ -111,11 +105,13 @@ nav li {
     grid-area: "item1";
     background-color: #1A0061;
     border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(53, 0, 212, 0.3);
 }
 .item2 {
     grid-area: "item2";
     background-color: #1A0061;
     border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(53, 0, 212, 0.3);
 }
 
 
