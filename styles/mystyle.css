@@ -70,3 +70,10 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.nav-line {
+    width: 54em;
+    height: 1.4em;
+    background-color: #3500D4;
+    border-radius: 12px;
+}
