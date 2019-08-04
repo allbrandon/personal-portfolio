@@ -1,4 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
 h1 {
     font-size: 4.5rem;
     font-family: 'Open Sans', sans-serif;
@@ -15,14 +21,14 @@ p {
 main {
     margin-left: 7.5rem;
     margin-right: 7.5rem;
-    margin-top: 3.75rem;
+    margin-top: 23rem;
     margin-bottom: 3.75rem;
 
 }
 
 nav {
     overflow: hidden;
-    background-color: #fff111;
+    background-color: #ffffff;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -30,13 +36,13 @@ nav {
 }
 
 nav li {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #3500D4;
     text-decoration: none;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-top: 3rem;
 }
 #logo {
@@ -45,10 +51,14 @@ nav li {
     font-weight: 700;
     color: #0C0032;
     margin-right: auto;
+    margin-top: 1rem;
+    margin-left: 4.9rem;
+    
 }
 .flex-container {  
     display: flex;  
     justify-content: flex-end;
+    margin-right: 7.5rem;
 
 }
 
