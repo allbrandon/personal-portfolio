@@ -55,10 +55,9 @@ nav {
     font-weight: 700;
     color: #0C0032;
     margin-top: 1rem;
-}
-#logo img {
     vertical-align: middle;
 }
+
 .nav-links {
     display: flex;
 }
@@ -176,6 +175,11 @@ a {
     }
     main {
         margin-top: 20vh;
+    }
+    #logo {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+
     }
 
 }
