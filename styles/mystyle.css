@@ -127,7 +127,7 @@ a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+        grid-template-rows: 1fr repeat(5, minmax(100px,35vh));
         grid-gap: 2% 6%;
         grid-template-areas:
         "header"
@@ -156,7 +156,7 @@ a {
     }
     p {
         text-align: center;
-        font-size: 2rem;
+        font-size: rem;
     }
     main {
         margin-top: 20vh;
@@ -177,5 +177,3 @@ a {
         "footer footer"
     }
 }
-
-@media screen and (max-width: )
