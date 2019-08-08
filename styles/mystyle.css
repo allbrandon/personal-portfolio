@@ -265,12 +265,24 @@ a {
         "screen-4"
     }
     .grid-container-projects img {
-        margin-left: 8vw;
+        margin-top: -15vh;
+        margin-left: 12vw;
         width: 60%;
         max-width: 100%;
         min-width: 0;
         height: auto;
         
+    }
+    .grid-container-projects p {
+        font-size: 3.5vw;
+    }
+    .grid-container-projects h1 {
+        font-size: 8vw;
+        text-align: center;
+    }
+    .grid-container-projects h2 {
+        font-size: 7vw;
+        text-align: center; 
     }
     .grid-container-home {
         display: grid;
