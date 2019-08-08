@@ -17,8 +17,14 @@ h1 {
     font-weight: 800;
     margin-bottom: 2rem;
 }
+h2 {
+    font-size: 2vw;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
 
-p {
+
+.flex-container-header > p {
     font-size: 1.5rem;
     margin-bottom: 5%;
 }
@@ -141,8 +147,8 @@ nav {
 .contact-block {
     border-radius: 14px;
     box-sizing: border-box;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     /* top right bottom left */
     display: flex;
     flex-wrap: wrap; 
@@ -175,6 +181,65 @@ nav {
     margin-top: -5rem;
     font-weight: 300;
 } 
+/* This is for any project*/
+.grid-container-projects {
+    display: grid;
+
+    grid-auto-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 4% 0%;
+    grid-template-areas:
+    "screen-1 description-1"
+    "screen-2 description-2"
+    "screen-3 description-3"
+    "screen-4 description-4"
+}
+.grid-container-projects > img {
+    margin-top: -4vh;
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+}
+.grid-container-projects h1 {
+    font-size: 2.7vw;
+    width: 100%;
+}
+.grid-container-projects p {
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+}
+
+#pc-screen-1{
+    grid-area: screen-1; 
+}
+#pc-description-1 {
+    grid-area: description-1;
+
+}
+#pc-screen-2 {
+    grid-area: screen-2; 
+
+}
+#pc-description-2 {
+    grid-area: description-2;
+
+}
+#pc-screen-3 {
+    grid-area: screen-3; 
+
+}
+#pc-description-3 {
+    grid-area: description-3;
+
+}
+#pc-screen-4 {
+    grid-area: screen-4; 
+
+}
+#pc-description-4 {
+    grid-area: description-4;
+
+}
 /* General */
 li {
     list-style-type: none;
@@ -185,10 +250,32 @@ a {
     text-decoration: none;
 }
 @media screen and (max-width: 700px) {
-    .grid-container {
+    .grid-container-projects {
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-rows: 1fr repeat(5, minmax(100px,35vh));
+        grid-template-areas:
+        "description-1"
+        "screen-1"
+        "description-2"
+        "screen-2"
+        "description-3"
+        "screen-3"
+        "description-4"
+        "screen-4"
+    }
+    .grid-container-projects img {
+        margin-left: 8vw;
+        width: 60%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        
+    }
+    .grid-container-home {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr repeat(5, minmax(100px,35vh));
+        grid-template-rows: 1fr repeat(5, auto);
         grid-gap: 2% 6%;
         grid-template-areas:
         "header"
@@ -233,7 +320,7 @@ a {
 }
 
 @media screen and (min-width: 700px) {
-    .grid-container {
+    .grid-container-home {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1.2fr 1.2fr 0.5fr;
