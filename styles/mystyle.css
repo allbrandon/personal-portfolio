@@ -253,7 +253,7 @@ a {
     .grid-container-projects {
         display: grid;
         grid-auto-columns: 1fr;
-        grid-template-rows: 1fr repeat(5, minmax(100px,35vh));
+        grid-template-rows: 1fr repeat(8, minmax(100px,35vh));
         grid-template-areas:
         "description-1"
         "screen-1"
@@ -263,6 +263,8 @@ a {
         "screen-3"
         "description-4"
         "screen-4"
+        "description-5"
+        "screen-5"
     }
     .grid-container-projects img {
         margin-top: -15vh;
