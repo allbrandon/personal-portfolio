@@ -192,13 +192,14 @@ nav {
     display: grid;
 
     grid-auto-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-gap: 4% 0%;
     grid-template-areas:
     "screen-1 description-1"
     "screen-2 description-2"
     "screen-3 description-3"
     "screen-4 description-4"
+    "screen-5 description-5"
 }
 .grid-container-projects > img {
     margin-top: -4vh;
